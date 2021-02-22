@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title id="heading"> Blog With Photos</title>
+		<link rel="stylesheet" href="style.css" >
+		<script src="main.js"></script>
+	</head>
+	<body onload="date()">
+        
+		<h1> Hello, Welcome To My Photography World!</h1>
+        
+	   <h4 id="demo"></h4>
+
+<p id="demo2"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toString();
+</script>
+        
+		<div class="image-section">
+			<div class="section-style">
+				<img src="https://projectsassets.s3.us-east-2.amazonaws.com/Nature_Image_3.png"alt="" />
+				<p>By Discovring nature, you discover yourself. Maxime Lagace</p>
+			</div>
+			<div class="section-style">
+				<img src="https://www.rwongphoto.com/images/xl/RW9883_web.jpg"alt="" />
+				<p>In nature, nothing is perfect and everything is perfect</p>
+			</div>
+            </div>
+        
+            <div class="image-section">
+			<div class="section-style">
+				<img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg"alt="" />
+				<p>Look deep into nature, and then you will understand everything better</p>
+			</div>
+			<div class="section-style">
+				<img src="https://wallpapercave.com/wp/wp2634222.jpg"alt="" />
+				<p>Forget not that the earth delights to feel your bare feet and the winds long to play with your hair</p>
+			</div>
+		</div>
+	</body>
+</html>
